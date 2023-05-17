@@ -14,9 +14,9 @@ var pool = mysql.createPool({     //服务器本地
 });
 var token = "5826785744:AAHAbbIRT1YZcipnGhjXBqa-LJpZDpy7aIM" //机器人token
 var address = "TGUJoKVqzT7igyuwPfzyQPtcMFHu76QyaC" //收款地址
-var centeraddress = "TMQj1T42ddndMASa8izbkkkkk" //转账地址
+var centeraddress = "TGUJoKVqzT7igyuwPfzyQPtcMFHu76QyaC" //转账地址
 var trxPrivateKey = "00df8c068466dcee97bcefb96ce3a3a5def5216f3c932c6f"; //私钥
-var cunbiaddress = "TNcik3H9doc1VTzSGvhziHo" //存币地址(不识别这个地址的转账)
+var cunbiaddress = "TGUJoKVqzT7igyuwPfzyQPtcMFHu76QyaC" //存币地址(不识别这个地址的转账)
 var mode = "main"//网络选择 main:主网 nile:nile网
 var minCount_TRX = 14; //trx起兑金额
 var minCount_USDT = 1;//usdt起兑金额
