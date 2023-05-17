@@ -16,8 +16,11 @@ npm -v
 
 安装
 npm install mysql 
+
 npm install node-telegran-bot-api
+
 npm install tronweb
+
 npm install moment
 
 
@@ -25,10 +28,15 @@ npm install moment
 
 登录数据库
 mysql -u root -p
+
 CREATE USER 'shandui'@'localhost' IDENTIFIED BY 'shandui';
+
 CREATE DATABASE shandui;
+
 GRANT ALL PRIVILEGES ON shandui.* TO 'shandui'@'localhost';
+
 FLUSH PRIVILEGES;
+
 exit;
 
 
