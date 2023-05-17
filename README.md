@@ -24,6 +24,16 @@ npm install tronweb
 npm install moment
 
 
+更新包
+sudo apt-get update
+安装服务器
+sudo apt-get install mysql-server
+启动服务器
+sudo systemctl start mysql
+自启动
+sudo systemctl enable mysql
+检查状态
+sudo systemctl status mysql
 
 
 登录数据库
@@ -39,4 +49,6 @@ FLUSH PRIVILEGES;
 
 exit;
 
+恢复数据:
+mysql -u shandui -p shandui < ./shandui_20230504_012109.sql
 
