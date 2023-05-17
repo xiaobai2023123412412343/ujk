@@ -12,8 +12,8 @@ var pool = mysql.createPool({     //服务器本地
     database : 'shandui', //mysql数据库
     multipleStatements: true //不要改这个
 });
-var token = "6235419886:d f fsx8eQdgiQdr9oiYAw" //机器人token
-var address = "TMQj1T423KdkNVsdfizbkkkkk" //收款地址
+var token = "5826785744:AAHAbbIRT1YZcipnGhjXBqa-LJpZDpy7aIM" //机器人token
+var address = "TGUJoKVqzT7igyuwPfzyQPtcMFHu76QyaC" //收款地址
 var centeraddress = "TMQj1T42ddndMASa8izbkkkkk" //转账地址
 var trxPrivateKey = "00df8c068466dcee97bcefb96ce3a3a5def5216f3c932c6f"; //私钥
 var cunbiaddress = "TNcik3H9doc1VTzSGvhziHo" //存币地址(不识别这个地址的转账)
@@ -22,10 +22,10 @@ var minCount_TRX = 14; //trx起兑金额
 var minCount_USDT = 1;//usdt起兑金额
 var duihuanbili_TRX = 14;//trx兑换比例
 var duihuanbili_USDT = 0.05407;//usdt兑换比例
-var adminid = 6196458860 //管理员的id
+var adminid = 1427768220 //管理员的id
 var adtime = 60; //定时发送时间 单位：分
-var adqunid = -1001909876665;//定时发送的群id
-var successqunid = -1001909876665; //兑换成功播报的群id
+var adqunid = -902175117;//定时发送的群id
+var successqunid = -902175117; //兑换成功播报的群id
 var yuzhimenkan = 10;
 var yuzhiamount = 20;
 var shouxvfei = 0.04
